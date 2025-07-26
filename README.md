@@ -38,8 +38,8 @@ geo-blog/
 ### 1. 프로젝트 설치
 
 ```bash
-git clone https://github.com/yourname/geo-blog.git
-cd geo-blog
+git clone https://github.com/diatomicC/geo_homepage.git
+cd geo_homepage
 npm install
 ````
 
