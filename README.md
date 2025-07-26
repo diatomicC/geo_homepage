@@ -1,4 +1,4 @@
-# 🌐 GEO Blog — Astro + Cloudflare Workers 모노레포 프로젝트
+# 🌐 GEO Blog 
 
 Generative Engine Optimization(GEO)을 주제로 한 SEO 최적화 블로그 및 외주 랜딩페이지 프로젝트입니다.  
 Astro를 프론트엔드 프레임워크로 사용하며, Cloudflare Workers를 백엔드로 활용해 글 업로드를 처리합니다.  
@@ -6,7 +6,7 @@ Astro를 프론트엔드 프레임워크로 사용하며, Cloudflare Workers를 
 
 ---
 
-## 📁 프로젝트 구조
+## 프로젝트 구조
 
 ```
 
@@ -22,7 +22,7 @@ geo-blog/
 
 ---
 
-## 🚀 기술 스택
+## 기술 스택
 
 - **Frontend**: [Astro](https://astro.build) + Tailwind CSS
 - **Markdown Blog**: content/blog/*.md
@@ -33,7 +33,7 @@ geo-blog/
 
 ---
 
-## 🧱 로컬 개발 환경
+## 로컬 개발 환경
 
 ### 1. 프로젝트 설치
 
@@ -67,7 +67,7 @@ wrangler dev
 
 ---
 
-## ✍️ 글 작성 흐름 (자동 배포)
+## ✍글 작성 흐름 (자동 배포)
 
 1. 사용자가 글 작성 폼에서 POST 요청 → Cloudflare Worker API
 2. API가 `.md` 파일 생성 및 GitHub에 push
@@ -76,7 +76,7 @@ wrangler dev
 
 ---
 
-## 📦 Astro 관련 명령어
+## Astro 관련 명령어
 
 ```bash
 # Astro dev 서버 실행
@@ -88,7 +88,7 @@ npm run build
 
 ---
 
-## 🔐 Secrets & 설정
+## Secrets & 설정
 
 * Cloudflare Workers 환경 변수 설정: `wrangler.toml`
 * GitHub 저장소 접근을 위한 Personal Access Token 필요
@@ -96,7 +96,7 @@ npm run build
 
 ---
 
-## 📌 TODO (협업 관리용)
+## TODO (협업 관리용)
 
 * [ ] 블로그 상세 페이지 디자인 개선
 * [ ] OG 이미지 자동 생성 기능
@@ -105,7 +105,7 @@ npm run build
 
 ---
 
-## 🧠 참고 자료
+## 참고 자료
 
 * [Astro Docs](https://docs.astro.build)
 * [Cloudflare Workers Docs](https://developers.cloudflare.com/workers/)
@@ -113,7 +113,7 @@ npm run build
 
 ---
 
-## 👥 Maintainers
+## Maintainers
 
 * [@juheehur](https://github.com/juheehur)
 * [@rxg-24](https://github.com/rxg-24)
